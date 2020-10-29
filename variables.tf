@@ -7,7 +7,9 @@
 
 variable "prefix" {
   description = "This prefix will be included in the name of most resources."
+  default = "dlemos"
 }
+
 
 variable "region" {
   description = "The region where the resources are created."
